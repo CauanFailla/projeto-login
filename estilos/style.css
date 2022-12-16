@@ -1,1 +1,62 @@
 @charset "UTF-8";
+
+:root {
+    --cor1: #5F2C82;
+    --cor2: #55628E;
+    --cor3: #4B969B;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--cor1);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+#login > #imagem {
+    display: block;
+    height: 30vh;
+    background-image: url('../imagens/pexels-soloman-soh-1492232.jpg');
+    background-size: cover;
+    background-position: right bottom;
+}
+
+#login > #formulario {
+    display: block;
+    padding: 10px;
+}
+
+#login > #formulario > h1 {
+    text-align: center;
+}
+
+#login > #formulario > p {
+    font-size: 0.9em;
+    text-align: justify;
+}
