@@ -60,3 +60,22 @@ main {
     font-size: 0.9em;
     text-align: justify;
 }
+
+#login > #formulario > form > div {
+    margin-top: 10px;
+    background-color: var(--cor1);
+    padding: 3px;
+}
+
+#login input {
+    background-color: #65c2c9;
+    color: white;
+    border: none;
+    padding: 3px;
+    width: 94%;
+}
+
+::placeholder {
+    color: gray;
+    font-size: 17px;
+}
