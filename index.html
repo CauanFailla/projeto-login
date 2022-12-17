@@ -18,16 +18,16 @@
                 <h1>Login</h1>
                 <p>Bem-vindo(a) novamente, faça login para acessar sua conta e poder fazer as configurações do seu ambiente </p>
                 <form method="post" action="dados.php">
-                    <div>
-                        <i>a</i>
+                    <div class="prin">
+                        <span class="material-icons">person</span>
                         <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
                     </div>
-                    <div>
-                        <i>a</i>
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required>
+                    <div class="prin">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8">
                     </div>
-                    <div><input type="submit" value="Entrar"></div>
-                    <div><input type="text" name="essen" id="iessen" placeholder="Esqueci a senha"></div>
+                    <div id="enviar"><input type="submit" value="Entrar" id="ien"></div>
+                    <div id="esqs"><a href="esqueci.html">Esqueci a senha</a></div>
                 </form>
             </div>
         </section>
