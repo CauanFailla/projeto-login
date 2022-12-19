@@ -25,6 +25,10 @@
     #login > #formulario > p {
         font-size: 0.9em;
     }
+
+    #login #isenha, #iemail {
+        width: 91%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -61,4 +65,10 @@
     #login > #formulario > form {
         margin-top: 30px;
     }
+
+    #login #isenha, #iemail {
+        width: 91%;
+    }
+
+    
 }
