@@ -18,17 +18,17 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Bem-vindo(a) novamente, faça login para acessar sua conta e poder fazer as configurações do seu ambiente </p>
-                <form method="post" action="dados.php">
+                <form method="post" action="dados.php" autocomplete="on">
                     <div class="prin">
                         <span class="material-icons">person</span>
-                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" required autocomplete="email">
                     </div>
                     <div class="prin">
                         <span class="material-icons">vpn_key</span>
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8">
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8" autocomplete="current-password">
                     </div>
                     <div id="enviar"><input type="submit" value="Entrar" id="ien"></div>
-                    <div id="esqs"><a href="esqueci.html">Esqueci a senha</a></div>
+                    <div id="esqs"><a href="esqueci.html">Esqueci a senha <span class="material-icons">mail</span></a></div>
                 </form>
             </div>
         </section>
